@@ -1,0 +1,111 @@
+body{
+    border: 2px solid  black;
+    width: 95%;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    padding-left: 80px;
+    padding-right: 50px;
+    margin: 20px
+    
+}   
+.container{
+    display: flex;
+    
+    
+}
+.drop{
+    display: inline;
+    margin-left:  -10px;
+    
+    text-align: left;
+    float: left;
+}
+.heading{
+    margin: auto;
+    font-size: x-large;
+}
+.search{
+    float: right;
+    margin-right: 80px;
+}
+.table_container{
+
+    border-collapse: collapse;
+    border: 2px solid black;
+    text-align: left;
+    width: 100%;
+    margin: auto
+    
+}
+.no{
+    padding-right: 20px;
+    padding-left: 3px;
+    width: 5%;
+
+}
+.name{
+    padding-right: 40px;
+    width: 25%;
+}
+ .address{
+    padding-right:40px;
+    height: 30px;
+    width: 600px;
+}
+.city{
+    padding-right: 60px;
+    width: 13%;
+
+}
+.pincode{
+    padding-right: 30px;
+    width: 10%;
+}
+.country{
+    padding-right: 30px;
+    width: 10%;
+}
+.action{
+    padding-right: 23px;
+    width: 10%;
+
+}
+.row1, .row2, .row3 , .row4 , .row5{
+    
+    padding-left: 10px;
+    height: 30px;
+}
+
+.td{
+    height: 40px;
+    margin: 50px;
+    padding: 50px;
+    width: 100px;
+}
+
+/* .th{
+     margin: 50px;
+     padding: 50px; 
+    width: 100px;
+} */
+.button{
+    float:right;
+    margin-top: -30px;
+
+   
+}
+
+.round1, .round2, .round4, .round5{
+    border-radius: 100px;
+    border-style: hidden;
+    /* border-color: white;
+    color: black; */
+    
+}
+.round3{
+    border-radius: 100px;
+    border-style: none;
+    background-color: blue;
+    color: white;
+    
+}

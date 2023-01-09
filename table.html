@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.top
+			{
+				margin-left: 1.5cm;
+				margin-top: 3cm;
+				margin-right: 1.5cm;
+				display: inline-block;
+			}
+		table
+			{
+				margin-left: 1.5cm;
+				margin-right: 1.5cm;
+				width: 90%;
+				border: 2px solid black;
+				border-collapse: collapse;
+				height: 0.7cm;	
+				
+			}
+		td,th
+			{
+				border: 2px solid grey;
+				border-collapse: collapse;
+				text-align: left;
+				height: 0.7cm;
+			}
+		.img1
+			{
+				height: 0.6cm;
+				width: auto;
+				display: inline;
+				color: blue;
+			}
+        .search{
+                float: right;
+                margin-right: 2.8cm;
+                margin-top: 3cm;
+            }
+        .round1, .round2, .round4, .round5
+            {
+            border-radius: 100px;
+            border-style: hidden;
+            }
+        .round3
+        {
+            border-radius: 100px;
+            border-style: none;
+            background-color: blue;
+            color: white;
+        }   
+        .entries
+            {
+                margin-left: 1.5cm;
+            }
+        .button
+            {
+                margin-right: 2.5cm;
+                float: right;
+            }
+	</style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/71a3a61f7f.js"></script>
+	<title>Table</title>
+</head>
+<body>
+	<span class="top">
+		<span>show <select><option>5</option></select> Entities</span>
+	</span>
+    <span>
+		<p style="display: inline-block; margin-left: 28%; font-size: 32px;">Customer<b> Details</b>
+    </span>
+    <div class="search">
+		<input type="text" placeholder="search" style="border-style:inset;"></p>
+	</div>	
+	<br>
+	<table>
+		<tr>
+		<th>#</th>
+		<th>Name<i class="fa-solid fa-sort"></i></th>
+		<th>Address</th>
+		<th>City<i class="fa-solid fa-sort"></th>
+		<th>Pincode</th>
+		<th>Country<i class="fa-solid fa-sort"></i></th>
+		<th>Actions</th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>Thomas Hardy</td>
+		<td>89 Chiasco Rd.</td>
+		<td>Portland</td>
+		<td>91219</td>
+		<td>USA</td>
+		<td><i class="fa-solid fa-eye" style="color: rgb(67, 67, 228) ;"></i> <i class="fa-solid fa-pencil" style="color: rgb(254, 226, 43);"></i> <i class="fa-solid fa-trash-can" style="color: red;"></i></td>
+
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>Maria Anders</td>
+		<td>Ober Str.57</td>
+		<td>Berlin</td>
+		<td>12209</td>
+		<td>Germany</td>
+		<td><i class="fa-solid fa-eye" style="color: rgb(67, 67, 228) ;"></i> 
+		<i class="fa-solid fa-pencil" style="color: rgb(254, 226, 43);"></i> 
+		<i class="fa-solid fa-trash-can" style="color: red;"></i></td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>Fran Wilson</td>
+		<td>C/Araquil,67</td>
+		<td>Madrid</td>
+		<td>28023</td>
+		<td>Spain</td>
+		<td><i class="fa-solid fa-eye" style="color: rgb(67, 67, 228) ;"></i> <i class="fa-solid fa-pencil" style="color: rgb(254, 226, 43);"></i> <i class="fa-solid fa-trash-can" style="color: red;"></i></td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>Dominic Perrier</td>
+		<td>25,rue Lauriston</td>
+		<td>Paris</td>
+		<td>75016</td>
+		<td>France</td>
+		<td><i class="fa-solid fa-eye" style="color: rgb(67, 67, 228) ;"></i> <i class="fa-solid fa-pencil" style="color: rgb(254, 226, 43);"></i> <i class="fa-solid fa-trash-can" style="color: red;"></i></td>
+	</tr>
+	<tr>
+		<td>5</td>
+		<td>Martin Blank</td>
+		<td>Via Monteblanco 34</td>
+		<td>Turin</td>
+		<td>10100</td>
+		<td>Italy</td>
+		<td><i class="fa-solid fa-eye" style="color: rgb(67, 67, 228) ;"></i> <i class="fa-solid fa-pencil" style="color: rgb(254, 226, 43);"></i> <i class="fa-solid fa-trash-can" style="color: red;"></i></td>
+	</tr>
+	</table>
+    <div class="entries">
+    <p>showing <b>5</b> out of <b>25</b> entries</p></div>
+    <div class="button">
+  <button>Previous</button>
+  <button class="round1">1</button>
+  <button class="round2">2</button>
+  <button class="round3">3</button>
+  <button class="round4">4</button>
+  <button class="round5">5</button>
+  <button>Next</button>
+</div>  
+</body>
+</html>
